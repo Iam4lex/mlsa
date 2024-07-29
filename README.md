@@ -2,7 +2,7 @@
 
 | Step | Description | Actions |
 |------|-------------|---------|
-| 1 | **Understand MLSA Program** | - Visit the [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com&wt.mc_id=studentamb_399212) website.<br>- Familiarize yourself with the program benefits and requirements. |
+| 1 | **Understand MLSA Program** | - Visit the [Microsoft Learn Student Ambassadors](https://mvp.microsoft.com/studentambassadors&wt.mc_id=studentamb_399212) website.<br>- Familiarize yourself with the program benefits and requirements. |
 | 2 | **Build Technical Skills** | - Complete relevant Microsoft Learn modules.<br>- Earn certifications (e.g., Azure, Microsoft 365). |
 | 3 | **Create Valuable Content** | - Write blog posts or articles.<br>- Create tutorials, guides, or videos.<br>- Host events and workshops. |
 | 4 | **Engage with Community** | - Participate in local tech meetups.<br>- Join online forums and discussion groups.<br>- Contribute to open-source projects. |
