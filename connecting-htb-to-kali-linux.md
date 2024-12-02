@@ -28,4 +28,6 @@ You will need OpenVPN to connect to HTB. Most versions of Kali Linux come with O
 
 ```bash
 sudo apt update
+```
+```bash
 sudo apt install openvpn
