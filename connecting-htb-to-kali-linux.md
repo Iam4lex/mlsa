@@ -18,7 +18,7 @@ Before starting, ensure you have the following:
 - Kali Linux installed and updated.
 - Basic knowledge of using the terminal in Kali Linux.
 
-### Step 1: Create or Log into Your Hack The Box Account
+## Step 1: Create or Log into Your Hack The Box Account
 
 1. Visit [Hack The Box](https://www.hackthebox.eu) and sign up for an account if you don’t have one.
 2. Once signed in, you will need to locate your HTB VPN connection details. These are required to connect Kali Linux to the HTB network.
@@ -42,3 +42,67 @@ sudo apt update
 - Install openvpn
 ```bash
 sudo apt install openvpn
+```
+
+## Step 3: Connect to Hack The Box Using OpenVPN
+
+1. Navigate to the directory where the VPN configuration file was downloaded. For example:
+```
+cd ~/Downloads
+```
+Start the VPN connection using OpenVPN:
+```
+sudo openvpn <your-vpn-config-file>.ovpn
+```
+Replace <your-vpn-config-file> with the actual name of the file downloaded.
+
+Enter your root password when prompted.
+
+![image](https://github.com/user-attachments/assets/43e58c18-526d-4a2f-8a5e-47397c4a7249)
+
+## Step 4: Verify the Connection to Hack The Box
+After connecting via OpenVPN, check your IP address to confirm you are connected to the HTB network:
+
+```
+ifconfig
+```
+The output should display an IP address associated with the HTB network at tun0.
+
+Log in to your Hack The Box account, navigate to the Active Machines section, and select a machine to start practicing.
+Click on the "Click here to spawn the target system!"
+![image](https://github.com/user-attachments/assets/4b0db762-ca4e-4547-8244-12af8f7eb8c8)
+
+When target spawning is done, you'll see something like this
+![image](https://github.com/user-attachments/assets/90c6017b-39eb-4333-8661-88601fd0d54d)
+
+Copy the ip address and open a new terminal. Type the following commands
+```
+ssh -v htb-student@ipaddress
+```
+Replace the ip address with the provided one in htb machine after spawning is done.
+Type the password shown below
+![image](https://github.com/user-attachments/assets/07fea90f-f52c-4938-a709-81d42fb52737)
+
+You will see something like this when the connection is established
+![image](https://github.com/user-attachments/assets/82cc0713-fffb-4ce3-82c7-606b64f06847)
+
+## Step 5: Troubleshooting Common Issues
+If you encounter issues connecting to HTB:
+
+- Ensure that your internet connection is active and stable.
+- Verify that the VPN configuration file is not corrupted by redownloading it.
+- Check the OpenVPN logs for error messages:
+```
+sudo journalctl -xe
+```
+- Ensure that no other VPN connections are active during this session.
+Conclusion
+You are now connected to Hack The Box via Kali Linux! You can start exploring active machines, solving challenges, and honing your penetration testing skills. Happy hacking!
+
+**Author**: Iam4lex  
+**Connect with me**:  
+- [X (Twitter)](https://x.com/Iam4lex)  
+- [LinkedIn](https://www.linkedin.com/in/iam4lex/)
+- [Instagram](https://instagram.com/iqm4lex)
+
+Let me know if there are any corrections or mistakes.
