@@ -7,6 +7,8 @@
   </a> 
 </div>
 
+---
+
 ## How to Connect Your Hack The Box (HTB) Account with Kali Linux
 
 Hack The Box (HTB) is a popular platform for cybersecurity enthusiasts to practice penetration testing and ethical hacking. In this guide, we’ll walk through the process of connecting your HTB account to Kali Linux to start solving challenges.
