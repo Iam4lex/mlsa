@@ -54,7 +54,7 @@ Start the VPN connection using OpenVPN:
 ```
 sudo openvpn <your-vpn-config-file>.ovpn
 ```
-Replace <your-vpn-config-file> with the actual name of the file downloaded.
+Replace "your-vpn-config-file" with the actual name of the file downloaded.
 
 Enter your root password when prompted.
 
@@ -84,7 +84,8 @@ Type the password shown below
 ![image](https://github.com/user-attachments/assets/07fea90f-f52c-4938-a709-81d42fb52737)
 
 You will see something like this when the connection is established
-![image](https://github.com/user-attachments/assets/82cc0713-fffb-4ce3-82c7-606b64f06847)
+![image](https://github.com/user-attachments/assets/c06ceae2-c1d3-4190-965d-c48a9c04abd7)
+
 
 ## Step 5: Troubleshooting Common Issues
 If you encounter issues connecting to HTB:
