@@ -8,6 +8,8 @@
 </div>
 
 ---
+***I’ll guide you through solving the challenges using an SSH terminal. To learn how to connect your HTB account with your Kali terminal, refer to the [Getting Started](https://github.com/Iam4lex/HTB/blob/main/Modules/Getting%20started/001%3AconnectinToKali.md).***
+---
 
 ### Find out the machine hardware name and submit it as the answer.
 - Use `uname -m` to determine the machine's hardware name. For more options, refer to `uname --help`.
