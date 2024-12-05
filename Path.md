@@ -1,4 +1,4 @@
-Linux fudamentals
-Networking basics
-Penetration testing
-Bug bounty
+-Linux fudamentals
+-Networking basics
+-Penetration testing
+-Bug bounty
