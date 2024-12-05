@@ -2,7 +2,7 @@
 
 **1. Linux Fundamentals**
 - Learn Linux commands, permissions, shell scripting, and file management.
-- Practice on platforms like Hack The Box or OverTheWire.
+- Practice on platforms like [Hack The Box](https://academy.hackthebox.com/module/details/18) or [OverTheWire](https://overthewire.org/wargames/bandit/bandit0.html).
 
 **2. Networking Basics**
 - Understand OSI model, TCP/IP, subnetting, DNS, and firewalls.
