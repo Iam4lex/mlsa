@@ -20,6 +20,7 @@
   - Practice on platforms like [Hack The Box](https://academy.hackthebox.com/module/details/18) or [OverTheWire](https://overthewire.org/wargames/bandit/bandit0.html).
   - Complete Linux-based challenges on OverTheWire (Bandit series).
   - Use a virtual machine with Kali Linux or Ubuntu for hands-on practice.
+  - ## Learn a scripting language ``Bash`` or ``Python``
 ---
 
 ## 2. Networking Basics (Beginner to Intermediate)
