@@ -42,5 +42,8 @@ ls -i /etc/sudoers
 ```
 - The output will show the index number, inode, of the `sudoers` file.
 
-**Answer:** `147627`
+**Answer:** 
+```bash
+147627
+```
 ![image](https://github.com/user-attachments/assets/dd8df50f-98a6-4ce6-b9ca-fd84540295e1)
