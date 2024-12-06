@@ -83,7 +83,7 @@
   - Tools like Mimikatz, BloodHound, and Impacket.
 - **How to Practice:**
   - Work on AD-focused labs (e.g., TryHackMe’s Attacktive Directory).
-
+---
 ## 9. Reverse Engineering and Exploit Development (Expert)
 - **What to Learn:**
   - Basics of assembly language, debugging, and binary analysis.
