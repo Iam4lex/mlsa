@@ -9,7 +9,18 @@
 
 ---
 
-### Navigation challange
+---
+<div align="center">
+<h2>Navigation</h2>
+</div>
+
+
+### Objective
+- SSH into the server at `the machine ip` (ACADEMY-NIXFUND).
+- Check [here](https://github.com/Iam4lex/HTB/blob/main/Modules/001:Getting%20started/001:sshtokali.md) on how to ssh.
+
+---
+
 
 **What is the name of the hidden "history" file in the htb-user's home directory?**
 
@@ -47,3 +58,13 @@ ls -i /etc/sudoers
 147627
 ```
 ![image](https://github.com/user-attachments/assets/dd8df50f-98a6-4ce6-b9ca-fd84540295e1)
+
+---
+
+**Author**: Iam4lex  
+**Connect with me**:  
+- [X (Twitter)](https://x.com/Iam4lex)  
+- [LinkedIn](https://www.linkedin.com/in/iam4lex/)  
+- [Instagram](https://instagram.com/iqm4lex)
+
+Let me know if you spot any corrections or mistakes. Feedback is always welcome!
