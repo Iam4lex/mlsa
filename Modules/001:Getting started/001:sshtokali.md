@@ -12,8 +12,6 @@
 <h2>How to ssh</h2>
 </div>
 
----
-
 
 Hack The Box (HTB) is a popular platform for cybersecurity enthusiasts to practice penetration testing and ethical hacking. In this guide, we’ll walk through the process of connecting your HTB account to Kali Linux to start solving challenges.
 
