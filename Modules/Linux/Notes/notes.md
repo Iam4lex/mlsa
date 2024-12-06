@@ -175,7 +175,8 @@
   ```
 
 **mkdir**
-- Make a directory.
+- Make a directory. The command mkdir has an option marked -p to add parent directories.
+
 - **Example**:
   ```bash
   mkdir new_directory
