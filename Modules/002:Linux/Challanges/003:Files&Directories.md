@@ -9,7 +9,7 @@
 
 ---
 <div align="center">
-<h2>Working with directories</h2>
+<h2>Working with Files and Directories</h2>
 </div>
 
 
