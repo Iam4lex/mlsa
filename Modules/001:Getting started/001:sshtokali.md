@@ -8,8 +8,12 @@
 </div>
 
 ---
+<div align="center">
+<h2>How to ssh</h2>
+</div>
 
-## How to Connect Your Hack The Box (HTB) Account with Kali Linux
+---
+
 
 Hack The Box (HTB) is a popular platform for cybersecurity enthusiasts to practice penetration testing and ethical hacking. In this guide, we’ll walk through the process of connecting your HTB account to Kali Linux to start solving challenges.
 
@@ -24,12 +28,14 @@ Before starting, ensure you have the following:
 
 1. Visit [Hack The Box](https://www.hackthebox.eu) and sign up for an account if you don’t have one.
 2. Once signed in, you will need to locate your HTB VPN connection details. These are required to connect Kali Linux to the HTB network.
-   - Click on your username on the top right conner.
-   - Click on VPN settings
+- Click on your username on the top right conner.
+- Click on VPN settings
+
 ![image](https://github.com/user-attachments/assets/6e14c4d6-9212-4c79-8220-6dece62f3f8a)
 
-   - Scroll down to VPN servers.
-   - Select TCP and download the VPN connection file
+- Scroll down to VPN servers.
+- Select TCP and download the VPN connection file
+
 ![image](https://github.com/user-attachments/assets/6242c925-6427-4804-8d43-af6aa1954b5a)
 
 ## Step 2: Install OpenVPN on Kali Linux
@@ -48,17 +54,17 @@ sudo apt install openvpn
 
 ## Step 3: Connect to Hack The Box Using OpenVPN
 
-1. Navigate to the directory where the VPN configuration file was downloaded. For example:
+- Navigate to the directory where the VPN configuration file was downloaded. For example:
 ```
 cd ~/Downloads
 ```
-Start the VPN connection using OpenVPN:
+- Start the VPN connection using OpenVPN:
 ```
 sudo openvpn <your-vpn-config-file>.ovpn
 ```
-Replace "your-vpn-config-file" with the actual name of the file downloaded.
+- Replace "your-vpn-config-file" with the actual name of the file downloaded.
 
-Enter your root password when prompted.
+- Enter your root password when prompted.
 
 ![image](https://github.com/user-attachments/assets/43e58c18-526d-4a2f-8a5e-47397c4a7249)
 
@@ -72,9 +78,11 @@ The output should display an IP address associated with the HTB network at tun0.
 
 Log in to your Hack The Box account, navigate to the Active Machines section, and select a machine to start practicing.
 Click on the "Click here to spawn the target system!"
+
 ![image](https://github.com/user-attachments/assets/4b0db762-ca4e-4547-8244-12af8f7eb8c8)
 
 When target spawning is done, you'll see something like this
+
 ![image](https://github.com/user-attachments/assets/90c6017b-39eb-4333-8661-88601fd0d54d)
 
 Copy the ip address and open a new terminal. Type the following commands
@@ -83,9 +91,11 @@ ssh -v htb-student@ipaddress
 ```
 Replace the ip address with the provided one in htb machine after spawning is done.
 Type the password shown below
+
 ![image](https://github.com/user-attachments/assets/07fea90f-f52c-4938-a709-81d42fb52737)
 
 You will see something like this when the connection is established
+
 ![image](https://github.com/user-attachments/assets/c06ceae2-c1d3-4190-965d-c48a9c04abd7)
 
 
