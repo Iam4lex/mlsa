@@ -8,8 +8,6 @@
 </div>
 
 ---
-
----
 <div align="center">
 <h2>Navigation</h2>
 </div>
