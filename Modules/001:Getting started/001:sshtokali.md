@@ -110,6 +110,8 @@ sudo journalctl -xe
 Conclusion
 You are now connected to Hack The Box via Kali Linux! You can start exploring active machines, solving challenges, and honing your penetration testing skills. Happy hacking!
 
+---
+
 **Author**: Iam4lex  
 **Connect with me**:  
 - [X (Twitter)](https://x.com/Iam4lex)  
