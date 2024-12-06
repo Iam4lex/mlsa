@@ -1,57 +1,296 @@
-# Linux Overview
+###  Linux Commands Explained
+---
 
-## History
+**man <tool>**
+- Opens the manual pages for the specified tool.
+- **Example**:
+  ```bash
+  man ls
+  ```
 
-1. **Unix and Early Development**  
-   - Unix released by Ken Thompson and Dennis Ritchie in 1970 (AT&T).  
-   - Berkeley Software Distribution (BSD) released in 1977 but faced legal challenges due to AT&T's Unix code.
+**<tool> -h**
+- Prints the help page of the tool.
+- **Example**:
+  ```bash
+  ls -h
+  ```
 
-2. **GNU Project**  
-   - Initiated by Richard Stallman in 1983 to create a free Unix-like OS.  
-   - Introduced the GNU General Public License (GPL).  
+**apropos <keyword>**
+- Searches through manual pages' descriptions for instances of a given keyword.
+- **Example**:
+  ```bash
+  apropos network
+  ```
 
-3. **Linux Kernel Creation**  
-   - Created in 1991 by Linus Torvalds as a free operating system kernel.  
-   - Grew from a personal project to a globally adopted system with over 23 million lines of code (latest versions).  
+**cat**
+- Concatenates and prints files.
+- **Example**:
+  ```bash
+  cat file.txt
+  ```
 
-4. **Distributions**  
-   - Linux has over 600 distributions (distros).  
-   - Popular distros: Ubuntu, Fedora, Debian, OpenSUSE, RedHat, Linux Mint, etc.
+**whoami**
+- Displays the current username.
+- **Example**:
+  ```bash
+  whoami
+  ```
+
+**id**
+- Returns user identity.
+- **Example**:
+  ```bash
+  id
+  ```
+
+**hostname**
+- Sets or prints the name of the current host system.
+- **Example**:
+  ```bash
+  hostname
+  ```
+
+**uname**
+- Prints the operating system name.
+- **Example**:
+  ```bash
+  uname -a
+  ```
+
+**pwd**
+- Returns the current working directory name.
+- **Example**:
+  ```bash
+  pwd
+  ```
 
 ---
 
-## Key Features of Linux
+### Networking Commands
 
-- **Security**  
-  - More secure than many other OSs; fewer vulnerabilities compared to Windows.  
-  - Frequent updates and stability.
+**ifconfig**
+- Assigns or views an address to a network interface or configures network interface parameters.
+- **Example**:
+  ```bash
+  ifconfig
+  ```
 
-- **Flexibility**  
-  - Open-source; allows modification and redistribution for various purposes.  
-  - Powers servers, desktops, embedded systems, and Android devices.
+**ip**
+- Shows or manipulates routing, network devices, interfaces, and tunnels.
+- **Example**:
+  ```bash
+  ip addr
+  ```
 
-- **Performance**  
-  - Highly stable and efficient, though challenging for beginners.
+**netstat**
+- Shows network status.
+- **Example**:
+  ```bash
+  netstat -an
+  ```
 
-## Principle of Linux
+**ss**
+- Investigates sockets.
+- **Example**:
+  ```bash
+  ss -tuln
+  ```
 
-Linux adheres to these core principles:
+---
 
-1. **Everything is a File**  
-   - All configurations are stored in text files. Example: `/etc/passwd`.
+### Process Management Commands
 
-2. **Small, Single-Purpose Programs**  
-   - Offers modular tools designed for specific tasks.
+**ps**
+- Shows process status.
+- **Example**:
+  ```bash
+  ps aux
+  ```
 
-3. **Program Chaining**  
-   - Tools can be combined for complex operations.
+**who**
+- Displays who is logged in.
+- **Example**:
+  ```bash
+  who
+  ```
 
-4. **Avoid Captive Interfaces**  
-   - Designed for shell/terminal use, providing advanced user control.
+**env**
+- Prints the environment or sets and executes a command.
+- **Example**:
+  ```bash
+  env
+  ```
 
-5. **Text-Based Configurations**  
-   - Configurations stored in text files for easier management.
+**kill**
+- Sends a signal to a process.
+- **Example**:
+  ```bash
+  kill 1234
+  ```
 
-## Conclusion
+**bg**
+- Puts a process into the background.
+- **Example**:
+  ```bash
+  bg %1
+  ```
 
-Linux stands out as a versatile and widely used operating system for everything from personal computers to mobile devices and servers. Its open-source nature and adherence to strong design principles make it a cornerstone of modern computing.
+**jobs**
+- Lists all processes running in the background.
+- **Example**:
+  ```bash
+  jobs
+  ```
+
+**fg**
+- Puts a process into the foreground.
+- **Example**:
+  ```bash
+  fg %1
+  ```
+
+---
+
+### File Management Commands
+
+**ls**
+- Lists directory contents.
+- **Example**:
+  ```bash
+  ls -l
+  ```
+
+**cd**
+- Changes the directory.
+- **Example**:
+  ```bash
+  cd /home/user
+  ```
+
+**touch**
+- Creates an empty file.
+- **Example**:
+  ```bash
+  touch newfile.txt
+  ```
+
+**mkdir**
+- Make a directory.
+- **Example**:
+  ```bash
+  mkdir new_directory
+  ```
+
+**mv**
+- Moves or renames files and directories.
+- **Example**:
+  ```bash
+  mv file1.txt file2.txt
+  ```
+
+**cp**
+- Copies files or directories.
+- **Example**:
+  ```bash
+  cp file1.txt path/
+  ```
+
+**rm**
+- Removes files or directories.
+- **Example**:
+  ```bash
+  rm file.txt
+  ```
+
+---
+
+### System Commands
+
+**sudo**
+- Executes a command as a different user.
+- **Example**:
+  ```bash
+  sudo apt update
+  ```
+
+**su**
+- Switches to another user account.
+- **Example**:
+  ```bash
+  su - username
+  ```
+
+**passwd**
+- Changes the user password.
+- **Example**:
+  ```bash
+  passwd
+  ```
+
+---
+
+### Package Management Commands
+
+**dpkg**
+- Installs, removes, and configures Debian-based packages. It stands for debian package manager.
+- **Example**:
+  ```bash
+  dpkg -i package.deb
+  ```
+
+**apt**
+- High-level package management command-line utility. It stands for advanced package tool.
+- **Example**:
+  ```bash
+  apt install package_name
+  ```
+
+**snap**
+- Manages snap packages.
+- **Example**:
+  ```bash
+  snap install package_name
+  ```
+
+**pip**
+- Standard package manager for Python.
+- **Example**:
+  ```bash
+  pip install requests
+  ```
+
+**gem**
+- Standard package manager for Ruby.
+- **Example**:
+  ```bash
+  gem install rails
+  ```
+
+---
+
+### Miscellaneous Commands
+
+**curl**
+- Transfers data from or to a server.
+- **Example**:
+  ```bash
+  curl http://example.com
+  ```
+
+**wget**
+- Downloads files from FTP or HTTP(s) servers.
+- **Example**:
+  ```bash
+  wget http://example.com/file.zip
+  ```
+
+  **python3 -m http.server**
+- Starts a Python3 web server on TCP port 8000.
+- **Example**:
+  ```bash
+  python3 -m http.server 8080
+  ```
+
+---
+
+This document outlines basic Linux commands with their purposes and examples. Use these commands to enhance your Linux system proficiency.
