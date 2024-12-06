@@ -8,12 +8,16 @@
 </div>
 
 ---
+<div align="center">
+<h2>Working with directories</h2>
+</div>
 
-### Challange: Working with directories
 
 ### Objective
 - SSH into the server at `the machine ip` (ACADEMY-NIXFUND).
 - Check [here](https://github.com/Iam4lex/HTB/blob/main/Modules/001:Getting%20started/001:sshtokali.md) on how to ssh.
+
+---
 
 **Find the Name of the Last Modified File in the `/var/backups` Directory**
 
